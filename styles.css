@@ -5,9 +5,45 @@
 --biggest-font-size: 2.25rem;
 --normal-font-size: .938rem;
 }
+/* Responsive typography */
+@media screen and (min-width: 1024px) {
+    :root {
+      --biggest-font-size: 3.5rem;
+      --normal-font-size: 1rem;
 
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
   }
+  body{
+    font-family: var(--body-font)
+    var(--normal-font-size)
+    background-color: var(--body-color);
+    color: var(--text-color)
+  }
+
+  ul{
+    list-style: none;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  img{
+    max-width: 100%;
+    height: auto;
+  }
+
+  .container{
+    max-width: 1024px;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+  }
+
+  .main{
+    overflow:hidden; */for the animations*/
+  }
+
+
