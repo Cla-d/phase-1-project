@@ -1,0 +1,13 @@
+:root {
+/*========font and typography========*/
+--body-font: 'Open Sans', sans-serif ;
+--second-font: 'Lemon', cursive;
+--biggest-font-size: 2.25rem;
+--normal-font-size: .938rem;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
