@@ -3,36 +3,40 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-        <link href="<link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">">
-
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
         <link rel="stylesheet" href="styles.css">
-
-        <title>Responsive juice website - Bedimcode</title>
+        <title>Responsive cocktail website - Bedimcode</title>
     </head>
+
     <body>
         
         <header class="header" id="header">
             <nav class="nav container">
-                <a href="" class="nav--logo">
+                <a href="#" class="nav__logo">
                    Cocktail<span>Paradise</span>
                 </a>
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
                         <li class="nav__item">
-                            <a href="#" class="nav--link">Home</a>
+                            <a href="#" class="nav__link active-link">Home</a>
                         </li>
                         <li class="nav__item">
-                            <a href="#" class="nav--link">About</a>
+                            <a href="#" class="nav__link">About</a>
                         </li>
                         <li class="nav__item">
-                            <a href="#" class="nav--link">Services</a>
+                            <a href="#" class="nav__link">Services</a>
                         </li>
                         <li class="nav__item">
-                            <a href="#" class="nav--link">Contact</a>
+                            <a href="#" class="nav__link">Contact</a>
                         </li>
-
-                    </ul>
+                     </ul>
+                     <div class="nav__close" id="nav-close">
+                        <i class="ri-close-line"></i>
+                     </div>
+                     <img src="cocktails/mint.jpg" alt="nav image" class="nav__img">
+                </div>
+                <div class="nav__toggle" id="nav-toggle">
+                     <i class="ri-menu-line"></i>
                 </div>
             </nav>
             

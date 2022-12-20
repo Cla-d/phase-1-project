@@ -1,5 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemon&family=Open+Sans:wght@400;600&display=swap');
 :root {
-/*========font and typography========*/
+  --header-height: 3.5rem;
+  /*=========== colors =========*/
+  --first-color: #F19C79;
+  --first-color-alt: #cbdfbd;
+  --title-color: hsl(233, 20%, 15%);
+  --text-color: #000000;
+  --body-color: #f6f4d2;
+
+  /*========font and typography========*/
 --body-font: 'Open Sans', sans-serif ;
 --second-font: 'Lemon', cursive;
 --biggest-font-size: 2.25rem;
@@ -10,15 +19,16 @@
     :root {
       --biggest-font-size: 3.5rem;
       --normal-font-size: 1rem;
-
+    }
+}
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
   }
   body{
-    font-family: var(--body-font)
-    var(--normal-font-size)
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
     background-color: var(--body-color);
     color: var(--text-color)
   }
@@ -43,7 +53,39 @@
   }
 
   .main{
-    overflow:hidden; */for the animations*/
+    overflow:hidden; 
   }
+  .header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+  }
+
+  .nav{
+    position: relative;
+    height: var(--header-height);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav__logo{
+    font-family: var(--second-font);
+    color: var(--first-color);
+  }
+
+  .nav__logo span{
+    color: var(--title-color);
+  }
+
+  .nav__toggle{
+    display: inline-flex;
+    font-size: 1.25rem;
+    color: var(--title-color);
+    cursor: pointer;
+  }
+
 
 
