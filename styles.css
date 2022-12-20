@@ -230,47 +230,6 @@ top: 7rem;
 left: .65rem;
 }
 
-.home__pineapple:nth-child(1),
-.home__pineapple:nth-child(6){
-  width: 50px;
-  transform: rotate(30deg);
-}
-
-.home__pineapple:nth-child(2),
-.home__pineapple:nth-child(4),
-.home__pineapple:nth-child(5){
-  width: 40px;
-}
-
-.home__pinapple:nth-child(1){
-  top: -7rem;
-  right: 3rem;
-}
-.home__pinapple2{
-  transform: rotate(-60deg);
-  top: 1.5rem;
-  left: 1.25rem;
-}
-.home__pinapple3{
-  width: 20px;
-  transform: rotate(-15deg);
-  top: 8rem;
-  right: 5rem;
-}
-.home__pinapple4{
-  bottom: 4rem;
-  left: 3rem;
-}
-.home__pinapple5{
-  transform: rotate(-30deg);
-  bottom: 0;
-  right: 5rem;
-}
-.home__pinapple6{
-  bottom: -5rem;
-  left: 3rem;
-}
-
 .home__shape-small,
 .home__shape-big{
   background-color: hsl(2, 100%, 88%);
@@ -310,6 +269,32 @@ left: .65rem;
   }
   100%{
     transform: translateY(0) rotate(15deg);
+  }
+}
+
+@media screen and (max-width: 330px){
+  .container{
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .home__images{
+    width: 245px;
+    height: 320px;
+  }
+
+  .home__liquid{
+    width: 250px;
+    left: 0;
+  }
+
+  .home__juice{
+    width: 100px;
+  }
+
+  .home__berry1,
+  .home__berry2{
+    width: 70px;
   }
 }
 
