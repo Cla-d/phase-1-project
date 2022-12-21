@@ -161,6 +161,7 @@
   font-family: var(--second-font);
   color: var(--title-color);
   margin-bottom: .75rem;
+  
 }
 .home__title span{
   display: block;
@@ -208,7 +209,7 @@
   }
 
   .home__cocktail{
-    width: 140px;
+    width: 250px;
     transform: rotate(15deg);
     left: 1rem;
     right: 0;
@@ -281,6 +282,8 @@ left: .65rem;
   .home__images{
     width: 245px;
     height: 320px;
+    margin-bottom: 30px;
+    padding-bottom: 100rem;
   }
 
   .home__liquid{
@@ -288,7 +291,7 @@ left: .65rem;
     left: 0;
   }
 
-  .home__juice{
+  .home__cocktail{
     width: 100px;
   }
 
@@ -317,6 +320,53 @@ left: .65rem;
     align-items: center;
     column-gap: 4rem;
     padding-top: 4rem;
+  }
+  .home__data{
+    margin-left: 20rem;
+  }
+}
+
+@media screen and (min-width: 1024px){
+  .home__images{
+    width: 530px;
+    height: 590px;
+  }
+  .home__liquid{
+    width: 530px;
+  }
+  .home__cocktail{
+    width: 220px;
+    left: 0;
+    top: 1.5rem;
+  }
+  .home__berry1{
+    width: 100px;
+    top: 10rem;
+    left: -1rem;
+  }
+  .home__berry2{
+    width: 185px;
+    right: .5rem;
+    bottom: 5.5rem;
+  }
+
+  .home__shape-small{
+    width: 400px;
+    height: 400px;
+    top: 0;
+    left: -15rem;
+  }
+  .home__shape-big{
+    width: 500px;
+    height: 500px;
+    top: 22rem;
+    right: -14rem;
+  }
+  @media screen and (min-width: 1048px){
+    .container{
+      margin-left: auto;
+      margin-right: auto;
+    }
   }
 }
 
