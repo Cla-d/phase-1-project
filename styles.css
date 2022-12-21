@@ -277,7 +277,7 @@ left: .65rem;
 .menu__card{
   position: relative;
   height: 700px;
-  background-color: var(--first-color-alt);
+  background-color: #d4e09b;
   padding: .75rem;
   border-radius: 2rem;
   display: grid;
@@ -390,7 +390,7 @@ left: .65rem;
     width: 530px;
   }
   .home__cocktail{
-    width: 220px;
+    width: 350px;
     left: 0;
     top: 1.5rem;
   }

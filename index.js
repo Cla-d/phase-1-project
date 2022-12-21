@@ -28,3 +28,8 @@ const linkAction = () =>{
     navMenu.classList.remove('show-menu')
 }
 navLink.forEach(n => n.addEventListener('click', linkAction))
+
+document.getElementById(menu).addEventListener("click", function(display){
+    let cocktailsDisplay = document.querySelector('#menu')
+    return "menu"
+})
