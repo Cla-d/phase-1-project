@@ -360,13 +360,17 @@ footer{
   min-height: 15vh;
   background-color: #d4e09b;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
+  justify-content: space-between;
+  color: black;
+  padding-right: 40px;
+  
 }
 
-footer p{
-  
+#contact :hover{
+font-style: italic;
+font-size: large;
+color: red;
+font-weight: bold;
 }
 
 @keyframes float-cocktail{
