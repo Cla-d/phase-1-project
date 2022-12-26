@@ -283,6 +283,16 @@ left: .65rem;
   height: 100%;
 }
 
+#sign_up{
+  height: 30px;
+  width: 200px;
+}
+
+#signupButton{
+  height: 30px;
+  width: 40px;
+}
+
 .image_part img{
 width: 450px;
 height: 450px;
@@ -373,6 +383,40 @@ color: red;
 font-weight: bold;
 }
 
+#signUpForm{
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#user-name{
+height: 40px;
+width: 400px;
+text-align: center;
+background-color: #F88379;
+font-size: large;
+margin: 30px;
+}
+
+#user-email{
+  height: 40px;
+  width: 400px;
+  text-align: center;
+  background-color: #F88379;
+  font-size: large;
+  margin: 30px;
+  }
+
+  #addDataButton{
+    height: 40px;
+  width: 400px;
+  text-align: center;
+  background-color: #F88379;
+  font-size: large;
+  margin: 30px;
+  font-style: var(--font-semi-bold);
+  }
 @keyframes float-cocktail{
   0%{
     transform: translateY(0) rotate(15deg);
