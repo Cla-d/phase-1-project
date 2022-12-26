@@ -285,7 +285,7 @@ left: .65rem;
 
 .menu__line{
   line-height: 4rem;
-  margin-left: 200px;
+  
   font-family: var(--second-font);
   font-size: 2.5rem;
   color: var(--first-color);
@@ -306,6 +306,7 @@ left: .65rem;
   display: grid;
 }
 .menu__img{
+  display: flex;
   width: 400px;
   position: absolute;
   inset: 0;
