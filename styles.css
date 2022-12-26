@@ -283,6 +283,28 @@ left: .65rem;
   height: 100%;
 }
 
+.image_part img{
+width: 450px;
+height: 450px;
+margin: 0px;
+border-radius: 50%;
+padding: 10px;
+}
+
+#about{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#F19C79 ;
+}
+
+.image_part{
+  flex-basis: 40%;
+}
+
+.content_part{
+  flex-basis: 60%;
+}
 .menu__line{
   line-height: 4rem;
   
@@ -334,7 +356,18 @@ left: .65rem;
   border-radius: .35rem;
 }
 
+footer{
+  min-height: 15vh;
+  background-color: #d4e09b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
 
+footer p{
+  
+}
 
 @keyframes float-cocktail{
   0%{
