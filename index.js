@@ -40,8 +40,7 @@ function displayData(cocktails){
         const card = document.createElement('div')
         card.className="card"
         const cardDetails=`
-        <img src="${item.strDrinkThumb}">,
-        <p>${item.strAlcoholic}</p>
+        <img src="${item.strDrinkThumb}">
         <h4>${item.strDrink}</h4>
         `
         card.innerHTML=cardDetails
