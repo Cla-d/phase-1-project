@@ -54,14 +54,15 @@ function displayData(cocktails){
 getData()
 
 function searchName(){
-    const form= document.getElementById("searchForm")
-    const input= document.getElementById("name").value
-    
-    form.addEventListener = ("submit", (e)=>{
+    const form = document.getElementById("searchForm")
+    const input = document.getElementById("name").value
+
+    form.addEventListener("submit",(e)=>{
         e.preventDefault()
-        fetch(`https://www.thecocktaildb.com/api/json/v1/1/search.php?s=margarita?name=${"input"}`)
+
+        fetch(`https://www.thecocktaildb.com/api/json/v1/1/search.php?s=margarita?name=${input}`)
         .then(response => response.json())
-        .then(data =>{
+        .then(data => {
             if(data.length != 0){
                 const resultContainer =document.getElementById("resultsContainer")
                 resultContainer.className="card resultcard"
@@ -82,8 +83,6 @@ function searchName(){
         })
     })
 }
-const searchButton = document.getElementById("searchButton")
+
+const searchButton= document.getElementById("searchButton")
 searchButton.addEventListener("click", searchName)
-
-
-
