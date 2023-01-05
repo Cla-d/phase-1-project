@@ -51,33 +51,40 @@ function displayData(cocktails){
     
 }
 
+getData()
+
 function searchName(){
-    const form = document.getElementById("searchForm")
-    const name = document.getElementById("name")
+    const form= document.getElementById("searchForm")
+    const input= document.getElementById("name").value
+    
     form.addEventListener = ("submit", (e)=>{
         e.preventDefault()
-        fetch(`https://www.thecocktaildb.com/api/json/v1/1/search.php?s=margarita$("input")`)
+        fetch(`https://www.thecocktaildb.com/api/json/v1/1/search.php?s=margarita?name=${"input"}`)
         .then(response => response.json())
-        .then(data => console.log(data))
+        .then(data =>{
+            if(data.length != 0){
+                const resultContainer =document.getElementById("resultsContainer")
+                resultContainer.className="card resultcard"
+                for(item of data){
+                    const resultDetails= `
+                    <img src="${item.image}" alt="student image">
+                    <p>${item.message}</p>
+                    <h4>${item.name}</h4>
+                `
+                resultContainer.innerHTML = resultDetails
+                }
+            } else{
+                const resultContainer =document.getElementById("resultsContainer")
+                resultContainer.className="card"
+                const notFoundMessage = `<h2>Sorry, we don't have that drink</h2>`
+                resultContainer.innerHTML= notFoundMessage
+            }
+            form.reset()
+        })
     })
 }
 const searchButton = document.getElementById("searchButton")
 searchButton.addEventListener("click", searchName)
 
-getData()
 
-//function searchName(){
-  //  const form = document.getElementById("searchForm")
-    //const input = document.getElementById("name").value
-
-    //form.addEventListener = ("submit",(e)=>{
-      //  e.preventDefault()
-
-        //fetch(`https://www.thecocktaildb.com/api/json/v1/1/search.php?s=margarita$("input")`)
-        //.then(response => response.json())
-        //.then(data => console.log(data))
-    //})
-//}
-//const searchButton = document.getElementById("searchButton")
-//searchButton.addEventListener("click", searchName)
 
