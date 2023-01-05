@@ -67,9 +67,8 @@ function searchName(){
                 resultContainer.className="card resultcard"
                 for(item of data){
                     const resultDetails= `
-                    <img src="${item.image}" alt="student image">
-                    <p>${item.message}</p>
-                    <h4>${item.name}</h4>
+                    <img src="${item.strDrinkThumb}">
+                    <h4>${item.strDrink}</h4>
                 `
                 resultContainer.innerHTML = resultDetails
                 }
