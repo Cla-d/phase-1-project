@@ -313,7 +313,7 @@ padding: 10px;
   width: 700px;
   display: flex;
   flex-direction: column;
-  margin: 30px;
+  margin: 20px;
   justify-content: center;
   align-items: center ;
   border-radius: 5%;
@@ -351,7 +351,38 @@ padding: 10px;
 }
 
 
+#searchBox{
+  height: 10vh;
+  margin-left: 200px;
+  margin-right: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #F88379;
+  margin-top: 20px;
+}
 
+.input{
+  height: 30px;
+  width: 250px;
+  justify-content: center;
+  align-items: center;
+}
+#searchBox form button{
+  height: 30px;
+  width: 50px;
+}
+
+#name{
+  height: 30px;
+  width: 400px;
+}
+
+.searchButton{
+  background-color: aliceblue;
+  height: 100px
+}
 footer{
   min-height: 15vh;
   background-color: #d4e09b;

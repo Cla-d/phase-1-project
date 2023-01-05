@@ -51,3 +51,19 @@ function displayData(cocktails){
     
 }
 getData()
+
+function searchName(){
+    const form = document.getElementById("searchForm")
+    const input = document.getElementById("name").value
+
+    form.addEventListener=("submit", (e)=>{
+        e.preventDefault()
+
+        fetch(`https://www.thecocktaildb.com/api/json/v1/1/search.php?s=margarita$("input")`)
+        .then(response => response.json())
+        .then(data => console.log(data))
+    })
+}
+const searchButton = document.getElementById("searchButton")
+searchButton.addEventListener("click", searchName)
+
