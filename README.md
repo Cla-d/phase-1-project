@@ -1,4 +1,6 @@
-# phase-1-project
+# <h1>Cocktail Paradise</h1>
+
+# <h2>Requirements</h2>
 
 # pre requisites
 Prerequisites
@@ -11,21 +13,14 @@ Use this api to source product https://www.thecocktaildb.com/api/json/v1/1/searc
 Link https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css for icons
 
 
-# Website name
-Cocktail Paradise
-======= #Cockttail Paradise ##By Claris Wairimu Njoga
-
 # Description 
  The above project is a web application for selling cocktails online. 
 
 # FEATURES
-  As a user you are able to get access to online and remote cocktail store. A cklick on the sign up for our news letter button leads to a page that a;;ows website visitors to sign up for a newsletter. A user can also serach for a cocktail on the search bar. 
-# REQUIREMENTS 
-Access to internet so as to get to the website to be able to use it 
-# TECHNOLOGY USED 
-HTML-used to develop the web structure of the store.
-CSS- used to style the layout page.
-JavaScript-used for functionality of the website.
+As a user you are able to get access to online and remote cocktail store.
+A click on the sign up for our news letter button leads to a page that a;;ows website visitors to sign up for a newsletter. A user can also serach for a cocktail on the search bar. 
+Different cocktails are displayed using cards
+
 
 # Authors info https://github.com/Cla-d
 
