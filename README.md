@@ -1,8 +1,14 @@
 # phase-1-project
 
-# Installations
-Icons used
-[your link here](https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css)
+# pre requisites
+Prerequisites
+node v14.17.4 and above
+npm 6.14.14 and above
+Vue 2.6.11
+Then install the various packages from package.json npm install
+Create environment variables
+Use this api to source product https://www.thecocktaildb.com/api/json/v1/1/search.php?s=margarita
+Link https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css for icons
 
 
 # Website name
@@ -17,16 +23,13 @@ Cocktail Paradise
 # REQUIREMENTS 
 Access to internet so as to get to the website to be able to use it 
 # TECHNOLOGY USED 
-####HTML-used to develop the web structure of the store. ####CSS- used to style the layout page. ####JAVASCRIPT-used for functionality of the webbsite. #####LICENCE MIT License
-
-Copyright (c) 2022 Cla.d
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+HTML-used to develop the web structure of the store.
+CSS- used to style the layout page.
+JavaScript-used for functionality of the website.
 
 # Authors info https://github.com/Cla-d
 
-0d1da594b32412ab5be923f95e93987137ed69c5
+# License
+[![License:MIT](https://img.shield.io.badge/License-MIT-yellow-svg)](https://opensourse.org/license/MIT)
+Copyright [c] 2023 **Njoga Claris**
+
