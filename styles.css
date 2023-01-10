@@ -351,7 +351,7 @@ padding: 10px;
 }
 
 
-#searchBox{
+#searchCocktail{
   height: 10vh;
   margin-left: 200px;
   margin-right: 200px;
@@ -369,7 +369,7 @@ padding: 10px;
   justify-content: center;
   align-items: center;
 }
-#searchBox form button{
+#searchCocktail form button{
   height: 30px;
   width: 50px;
 }
