@@ -284,8 +284,8 @@ left: .65rem;
 }
 
 #sign_up{
-  height: 30px;
-  width: 200px;
+  height: 0px;
+  width: 0px;
 }
 
 #signupButton{

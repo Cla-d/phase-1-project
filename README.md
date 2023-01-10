@@ -4,13 +4,13 @@
 
 # pre requisites
 Prerequisites
-node v14.17.4 and above
-npm 6.14.14 and above
-Vue 2.6.11
-Then install the various packages from package.json npm install
-Create environment variables
-Use this api to source product https://www.thecocktaildb.com/api/json/v1/1/search.php?s=margarita
-Link https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css for icons
+. node v14.17.4 and above
+. npm 6.14.14 and above
+. Vue 2.6.11
+. Then install the various packages from package.json npm install
+. Create environment variables
+. Use this api to source product https://www.thecocktaildb.com/api/json/v1/1/search.php?s=margarita
+. Link https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css for icons
 
 
 # Description 
