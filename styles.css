@@ -400,12 +400,12 @@ color: red;
 font-weight: bold;
 }
 
-#signUpForm{
+/* #signUpForm{
   height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 
 #user-name{
 height: 40px;
